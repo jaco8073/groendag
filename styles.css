@@ -15,14 +15,20 @@
 }
 
 .pill {
-    
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
     background-color: #2E2E2E;
 }
 
-
+#aline {
+    display: flex;
+    flex-direction: row;
+}
 
 /* Signes verden */
 
