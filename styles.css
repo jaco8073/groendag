@@ -7,8 +7,32 @@
 .display {
     display: flex;
     justify-content: center;
+    padding-bottom: 35px;
+    padding-top: 15px;
 }
 
+.logo {
+    height: auto;
+    width: 15%;
+}
+
+.topnav {
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.display .logo{
+    height: auto;
+    width: 25%;
+}
 .head {
     display: flex;
     justify-content: center;
