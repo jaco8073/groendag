@@ -128,7 +128,7 @@ p {
     width: 70%;
 }
 
-.img-cocacola1 {
+.center-img{
     display: flex;
 }
 
@@ -144,4 +144,17 @@ p {
 
 .underline {
     text-decoration: underline;
+}
+
+.margin-text {
+    padding: 0px 40px 0px 40px;
+}
+
+.margin-img {
+    margin: 40px 0px 40px 0px;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
 }
