@@ -45,6 +45,10 @@
     flex-direction: column;
 }
 
+.secondhero {
+    border-radius: 40px 40px 0 0;
+}
+
 body {
     background-color: #2E2E2E;
     display: flex;
@@ -54,6 +58,12 @@ body {
 #aline {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.underbox {
+    border-radius: 0 0 15px 15px;
+    background-color: rgb(62, 61, 61);
 }
 
 /* Signes verden */
