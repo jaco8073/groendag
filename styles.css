@@ -23,3 +23,42 @@
 
 
 /* Signes verden */
+
+* {
+   margin: 0;
+}
+
+.grey-background {
+ background-color: #3A3B3C;
+}
+
+.black-background {
+ background-color: black;
+}
+
+
+h2, h3, h4, p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    padding: 50px;
+}
