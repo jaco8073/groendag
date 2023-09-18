@@ -23,6 +23,8 @@
 
 body {
     background-color: #2E2E2E;
+    display: flex;
+    flex-direction: column;
 }
 
 #aline {
@@ -56,12 +58,12 @@ h3, h4 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 200;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 200;
 }
 
@@ -71,4 +73,41 @@ h4 {
 
 p {
     font-size: 15px;
+    line-height: 25px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.img-cocacola {
+    border-radius: 20px;
+    height: auto;
+    width: 45%;
+}
+
+.img-cocacolahjælp {
+    padding: 40px;  
+    height: auto;
+    width: 70%;
+}
+
+.img-cocacola1 {
+    display: flex;
+}
+
+.center-text {
+    margin:auto;
+    text-align: left;
+    padding-right:10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
 }
