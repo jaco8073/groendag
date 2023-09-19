@@ -7,7 +7,7 @@
 .display {
     display: flex;
     justify-content: center;
-    padding-bottom: 35px;
+    padding-bottom: 85px;
     padding-top: 15px;
 }
 
@@ -43,6 +43,7 @@
     height: 70%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .secondhero {
@@ -64,6 +65,68 @@ body {
 .underbox {
     border-radius: 0 0 15px 15px;
     background-color: rgb(62, 61, 61);
+    height: 300px;
+}
+
+.underbox h3 {
+    text-align: left;
+}
+
+.underbox p{
+    text-align: left;
+}
+
+.controlla {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+
+.topbox{
+    background-color: rgb(62, 61, 61);
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    margin-left: 170px;
+}
+
+.topbox p {
+    text-align: left;
+}
+
+.topbox h3 {
+    text-align: left;
+}
+
+.knap {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    width: 65%;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 220px;
+}
+
+.knap p {
+    text-align: center;
+    padding: 10px;
+}
+
+.behindbillede {
+    height: auto;
+    width: 50%;
+    position: relative;
+    left: 600px;
+    top: -460px;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.knapstyrer {
+    display: flex;
+    justify-content: center;
 }
 
 /* Signes verden */
