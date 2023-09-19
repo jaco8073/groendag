@@ -158,3 +158,57 @@ p {
     display: flex;
     justify-content: center;
 }
+
+.text-padding {
+    padding: 20px 200px 0px 200px;
+}
+
+.box-kontakt {
+    background-color: #2E2E2E;
+    width: 90%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.box-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.big-text {
+    font-size: 35px;
+}
+
+.small-text {
+    font-size: 15px;
+}
+
+.border-box {
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px 90px 10px 90px;
+    margin-top: 38px;
+}
+
+.center-text2 {
+    margin-left: 100px;
+    text-align: left;
+    padding-right:10%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.dk-img {
+    margin-left: 50px;
+}
