@@ -107,7 +107,7 @@ body {
     border: 2px;
     border-style: solid;
     border-color: white;
-    margin-top: 220px;
+    margin-top: 190px;
 }
 
 .knap p {
@@ -128,6 +128,43 @@ body {
 .knapstyrer {
     display: flex;
     justify-content: center;
+}
+
+.topbox2{
+    background-color: rgb(62, 61, 61);
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    margin-right: 200px;
+}
+
+.behindbillede2 {
+    height: auto;
+    width: 50%;
+    position: relative;
+    left: 40px;
+    top: -460px;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.behindbox {
+    height: 200px;
+}
+
+.controlla2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    flex-direction: row-reverse;
+}
+
+.topbox2 p {
+    text-align: left;
+}
+
+.topbox2 h3 {
+    text-align: left;
 }
 
 /* Signes verden */
